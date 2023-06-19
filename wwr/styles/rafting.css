@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color: #636B61;
+    --secondary-color: #AFA2FF;
+    --accent1-color: #E3D7FF;
+    --accent2-color: #E3D7FF;
+  
+    --heading-font: 'Oswald', Sans-serif;
+    --paragraph-font: ' Open Sans', Sans-serif;
+  
+    --nav-background-color: #7a89c2;
+    --nav-link-color: #9596e1;
+    --nav-hover-link-color: #636b61;
+    --nav-hover-background-color: #E3D7FF;
+  }
+  h1, h2 {
+    font-family: var(--heading-font);
+    color: #333333;
+}
+h2{
+    color: rgb(66, 19, 19);
+  }
+.social-link {
+    text-decoration: none;
+  }
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+  
+  .hero article p {
+    margin-bottom: 10px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 10px;
+  }
+  
+  
