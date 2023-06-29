@@ -13,6 +13,9 @@
     --nav-hover-link-color: #636b61;
     --nav-hover-background-color: #E3D7FF;
   }
+  body {
+    background-color: rgb(227, 227, 240);
+  }
   footer {
     background-color: #333;
     color: #fff;
@@ -111,12 +114,13 @@
   }
   
   nav a:hover {
-    color: #ff5e14;
+    color: blue;
   }
   
   
   .logo {
     font-size: 70px;
+    display: block;
   }
   
   nav ul {
@@ -156,7 +160,8 @@
   }
   
   .hero img {
-    display: block;
+    display:flex;
+    justify-content: space-around;
     width: 100%;
   }
   
@@ -181,6 +186,8 @@
   }
   
   .hero article img {
+    display: flex;
+    justify-content: flex-end;
     float: right;
     margin-left: 10px;
   }
