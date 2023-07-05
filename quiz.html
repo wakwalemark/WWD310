@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html and css Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="submit_quiz.php" method="post">
+      <h2>Question 1:</h2>
+      <label for="q1">What does HTML stand for?</label>
+      <input type="text" name="q1" id="q1">
+  
+      <h2>Question 2:</h2>
+      <label for="q2">Provide a short answer to explain the purpose of CSS:</label>
+      <textarea name="q2" id="q2" rows="4" cols="50"></textarea>
+  
+      <h2>Question 3:</h2>
+      <label for="q3">Select the correct HTML tag for creating a heading:</label>
+      <select name="q3" id="q3">
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="h1">h1</option>
+        <option value="h2">h2</option>
+        <option value="h3">h3</option>
+      </select>
+  
+      <h2>Question 4:</h2>
+      <label for="q4">How many columns are there in a CSS Grid layout?</label>
+      <input type="number" name="q4" id="q4">
+  
+      <input type="submit" value="Submit Quiz">
+    </form>
+</body>
+</html>
