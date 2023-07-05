@@ -13,6 +13,7 @@
     --nav-hover-link-color: #636b61;
     --nav-hover-background-color: #E3D7FF;
   }
+  
   body {
     background-color: rgb(227, 227, 240);
   }
@@ -191,5 +192,81 @@
     float: right;
     margin-left: 10px;
   }
+.employee-profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.employee-profile {
+  text-align: center;
+}
+
+.employee-profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.employee-profile figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form label.checkbox {
+  display: inline;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact-form button[type="submit"]:focus {
+  outline: none;
+}
+
+
+
+
   
   
