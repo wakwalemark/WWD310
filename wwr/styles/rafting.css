@@ -194,11 +194,10 @@
   map-container {
     display: flex;
     justify-content: space-around;
-    height: 300px;
-    width: 300%;
+    height: 1fr;
+    width: 1fr;
     margin-top: 20px;
     border-radius: 5px;
-    overflow: hidden;
   }
     .profile {
       display: flex;
